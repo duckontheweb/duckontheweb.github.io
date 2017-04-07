@@ -110,6 +110,12 @@ body {
   }
 }
 
+.section-header {
+  text-align: center;
+  font-size: 16px;
+  margin: 10px auto;
+}
+
 .icons-header {
   display: flex;
   justify-content: center;
@@ -218,11 +224,11 @@ body {
   }
 }
 
-.user-details {
-  text-align: center;
-  font-size: 16px;
-  margin: 10px auto;
-}
+//.user-details {
+//  text-align: center;
+//  font-size: 16px;
+//  margin: 10px auto;
+//}
 
 .user-projects {
   margin: 40px auto;
