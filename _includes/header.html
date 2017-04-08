@@ -12,6 +12,13 @@
       </div>
       <a class="link" href="#about" data-scroll>About Me</a>
       <a class="link" href="#projects" data-scroll>Projects</a>
+      {% for my_page in site.pages %}
+      {% if my_page.include_in_links %}
+      <a href="{{ my_page.url | relative_url }}" class="link">
+          {{my_page.title}}
+      </a>
+      {% endif %}
+      {% endfor %}
   </div>
   <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
 </div>

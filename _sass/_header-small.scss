@@ -1,0 +1,53 @@
+.header-blog {
+  background: #1a222c;
+  //padding: 10px 0;
+  text-align: center;
+  color: #FFF;
+  margin-bottom: 100px;
+
+  .name {
+    h1, h1 a {
+      font-size: 24px;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      vertical-align: middle;
+      text-align: left;
+      padding-left: 8px;
+      color: #FFF;
+      text-decoration: none;
+
+      a:hover {
+        color: steelblue;
+      }
+    }
+  }
+
+  .icons-header {
+    font-size: 20px;
+    vertical-align: middle;
+    padding: 6px 0;
+    .icon {
+      margin: 4px;
+      height: 16px;
+      width: 16px;
+      font-size: 16px;
+    }
+  }
+
+  .title {
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      margin: 10px auto;
+
+      a {
+        color: #FFF;
+        text-decoration: none;
+
+        &:hover {
+          color: steelblue;
+        }
+      }
+    }
+  }
+}
