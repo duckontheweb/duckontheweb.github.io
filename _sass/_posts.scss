@@ -7,4 +7,24 @@
 .post {
   padding-left: 20px;
   padding-right: 20px;
+
+  .post-subtitle {
+    color: steelblue;
+    font-size: 24px;
+  }
+
+  img {
+    float: right;
+    width: 50%;
+    margin: 0 0 0 12px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,1);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,1);
+  }
+
+  p {
+    text-align: justify;
+  }
 }

@@ -235,10 +235,18 @@ body {
 
 .user-projects {
   margin: 40px auto;
-  img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
+
+  .images {
+    img {
+      margin-left: 12px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+      border: 1px solid gray;
+      -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,1);
+      -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,1);
+      box-shadow: 5px 5px 5px 0px rgba(0,0,0,1);
+    }
   }
   h5 {
     margin: 0;
@@ -249,12 +257,23 @@ body {
   }
   p {
     margin-right: 5px;
+    text-align: justify;
   }
-}
 
-.images {
-  @media only screen and (min-width: $cut) {
-    float: right;
+  &:nth-of-type(even) {
+    .images {
+      @media only screen and (min-width: $cut) {
+        float: right;
+      }
+    }
+  }
+
+  &:nth-of-type(odd) {
+    .images {
+      @media only screen and (min-width: $cut) {
+        float: left;
+      }
+    }
   }
 }
 
@@ -293,6 +312,7 @@ body {
 }
 
 .footer {
+  clear: both;
   background: $main;
   padding: 10px 0;
   margin-top: 100px;
