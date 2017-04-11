@@ -237,15 +237,17 @@ body {
   margin: 40px auto;
 
   .images {
-    img {
+    iframe, img {
       margin-left: 12px;
-      max-width: 100%;
-      height: auto;
       border-radius: 5px;
       border: 1px solid gray;
       -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,1);
       -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,1);
       box-shadow: 5px 5px 5px 0px rgba(0,0,0,1);
+    }
+    img {
+      max-width: 100%;
+      height: auto;
     }
   }
   h5 {
