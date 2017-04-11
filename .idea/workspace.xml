@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb77c60d-71f2-4aeb-aeab-3d51a61c998c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-04-08-non-standard-projections-in-leaflet.markdown" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2017-04-08-welcome-to-jekyll.markdown" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/about.html" afterPath="$PROJECT_DIR$/_includes/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/projects.html" afterPath="$PROJECT_DIR$/_includes/projects.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/theme-styles.scss" afterPath="$PROJECT_DIR$/assets/css/theme-styles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_posts.scss" afterPath="$PROJECT_DIR$/_sass/_posts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog.html" afterPath="$PROJECT_DIR$/blog.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,9 +21,11 @@
       <file leaf-file-name="theme-styles.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/theme-styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="271" column="0" lean-forward="true" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="448">
+              <caret line="262" column="3" lean-forward="false" selection-start-line="262" selection-start-column="3" selection-end-line="262" selection-end-column="3" />
+              <folding>
+                <marker date="1491881248000" expanded="false" signature="4676:5417" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,8 +53,8 @@
       <file leaf-file-name="projects.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="36" column="72" lean-forward="false" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
+            <state relative-caret-position="69">
+              <caret line="18" column="10" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="18" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -109,9 +103,10 @@
       <find>section-header</find>
       <find>header-</find>
       <find>img</find>
-      <find>.images</find>
       <find>margin-left</find>
       <find>Familiar</find>
+      <find>.images</find>
+      <find>proje</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/_includes</dir>
@@ -145,8 +140,8 @@
         <option value="$PROJECT_DIR$/_sass/_posts.scss" />
         <option value="$PROJECT_DIR$/_posts/2017-04-09-non-standard-projections-in-leaflet.markdown" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
-        <option value="$PROJECT_DIR$/assets/css/theme-styles.scss" />
         <option value="$PROJECT_DIR$/_includes/about.html" />
+        <option value="$PROJECT_DIR$/assets/css/theme-styles.scss" />
         <option value="$PROJECT_DIR$/_includes/projects.html" />
       </list>
     </option>
@@ -329,7 +324,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27795000" />
+    <option name="totallyTimeSpent" value="28390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="6" />
@@ -652,14 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/theme-styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="271" column="0" lean-forward="true" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-79">
@@ -668,10 +655,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/theme-styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="262" column="3" lean-forward="false" selection-start-line="262" selection-start-column="3" selection-end-line="262" selection-end-column="3" />
+          <folding>
+            <marker date="1491881248000" expanded="false" signature="4676:5417" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/projects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="36" column="72" lean-forward="false" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
+        <state relative-caret-position="69">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="18" selection-end-column="10" />
           <folding />
         </state>
       </provider>

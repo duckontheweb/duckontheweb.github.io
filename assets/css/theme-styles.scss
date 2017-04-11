@@ -261,22 +261,6 @@ body {
     margin-right: 5px;
     text-align: justify;
   }
-
-  &:nth-of-type(even) {
-    .images {
-      @media only screen and (min-width: $cut) {
-        float: right;
-      }
-    }
-  }
-
-  &:nth-of-type(odd) {
-    .images {
-      @media only screen and (min-width: $cut) {
-        float: left;
-      }
-    }
-  }
 }
 
 .project-link {
@@ -311,6 +295,11 @@ body {
     background-color 0.3s ease-in,
     border-color 0.3s ease-in;
   }
+}
+
+.project-description {
+  margin-left: 16px;
+  margin-right: 4px;
 }
 
 .footer {
