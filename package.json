@@ -4,18 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Nathan Randecker",
   "license": "ISC",
   "dependencies": {
-    "browser-sync": "^2.24.7",
-    "gulp": "^3.9.1",
+    "browser-sync": "^2.26.0",
+    "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^2.0.0",
-    "gulp-imagemin": "^3.1.1",
+    "gulp-imagemin": "^5.0.0",
     "gulp-plumber": "^1.1.0",
     "gulp-sass": "^3.1.0",
-    "gulp-uglify": "^2.0.0"
-  }
+    "gulp-uglify": "^2.0.0",
+    "snyk": "^1.116.2"
+  },
+  "snyk": true
 }
