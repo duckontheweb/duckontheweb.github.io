@@ -1,31 +1,18 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.1
+version: v1.13.3
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:debug:20170905':
     - browser-sync > socket.io > socket.io-adapter > socket.io-parser > debug:
-        patched: '2018-12-09T06:30:46.165Z'
-  'npm:ms:20170412':
-    - browser-sync > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
-        patched: '2018-12-09T06:30:46.165Z'
+        patched: '2019-04-05T21:11:51.987Z'
   'npm:minimatch:20160620':
     - gulp > vinyl-fs > glob-stream > minimatch:
-        patched: '2018-10-24T04:33:22.780Z'
+        patched: '2019-04-05T21:11:51.987Z'
     - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
-        patched: '2018-10-24T04:33:22.780Z'
+        patched: '2019-04-05T21:11:51.987Z'
     - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
-        patched: '2018-10-24T04:33:22.780Z'
-  'npm:tunnel-agent:20170305':
-    - gulp-imagemin > imagemin-gifsicle > gifsicle > bin-build > download > caw > tunnel-agent:
-        patched: '2018-10-24T04:33:22.780Z'
-    - gulp-imagemin > imagemin-jpegtran > jpegtran-bin > bin-build > download > caw > tunnel-agent:
-        patched: '2018-10-24T04:33:22.780Z'
-    - gulp-imagemin > imagemin-optipng > optipng-bin > bin-build > download > caw > tunnel-agent:
-        patched: '2018-10-24T04:33:22.780Z'
-    - gulp-imagemin > imagemin-gifsicle > gifsicle > bin-wrapper > download > caw > tunnel-agent:
-        patched: '2018-10-24T04:33:22.780Z'
-    - gulp-imagemin > imagemin-jpegtran > jpegtran-bin > bin-wrapper > download > caw > tunnel-agent:
-        patched: '2018-10-24T04:33:22.780Z'
-    - gulp-imagemin > imagemin-optipng > optipng-bin > bin-wrapper > download > caw > tunnel-agent:
-        patched: '2018-10-24T04:33:22.780Z'
+        patched: '2019-04-05T21:11:51.987Z'
+  'npm:ms:20170412':
+    - browser-sync > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2019-04-05T21:11:51.987Z'
