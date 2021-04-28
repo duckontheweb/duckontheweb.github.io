@@ -1,11 +1,85 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.3
+version: v1.19.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:debug:20170905':
     - browser-sync > socket.io > socket.io-adapter > socket.io-parser > debug:
         patched: '2019-04-05T21:11:51.987Z'
+    - browser-sync > resp-modifier > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > braces > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > anymatch > micromatch > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > matchdep > micromatch > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > matchdep > micromatch > braces > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > matchdep > micromatch > extglob > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > matchdep > micromatch > nanomatch > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > readdirp > micromatch > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > liftoff > findup-sync > micromatch > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > matchdep > findup-sync > micromatch > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp-imagemin > imagemin > globby > fast-glob > micromatch > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > readdirp > micromatch > braces > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > liftoff > findup-sync > micromatch > braces > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > matchdep > findup-sync > micromatch > braces > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp-imagemin > imagemin > globby > fast-glob > micromatch > braces > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > matchdep > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > readdirp > micromatch > extglob > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > liftoff > findup-sync > micromatch > extglob > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > matchdep > findup-sync > micromatch > extglob > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp-imagemin > imagemin > globby > fast-glob > micromatch > extglob > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > readdirp > micromatch > nanomatch > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > liftoff > findup-sync > micromatch > nanomatch > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > matchdep > findup-sync > micromatch > nanomatch > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp-imagemin > imagemin > globby > fast-glob > micromatch > nanomatch > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > liftoff > findup-sync > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > matchdep > findup-sync > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp-imagemin > imagemin > globby > fast-glob > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2021-04-28T00:18:35.120Z'
   'npm:minimatch:20160620':
     - gulp > vinyl-fs > glob-stream > minimatch:
         patched: '2019-04-05T21:11:51.987Z'
@@ -16,3 +90,82 @@ patch:
   'npm:ms:20170412':
     - browser-sync > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
         patched: '2019-04-05T21:11:51.987Z'
+    - browser-sync > resp-modifier > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > braces > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > anymatch > micromatch > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > matchdep > micromatch > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > anymatch > micromatch > braces > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > matchdep > micromatch > braces > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > anymatch > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > matchdep > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > anymatch > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > matchdep > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > anymatch > micromatch > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > readdirp > micromatch > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > liftoff > findup-sync > micromatch > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > matchdep > findup-sync > micromatch > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp-imagemin > imagemin > globby > fast-glob > micromatch > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > anymatch > micromatch > braces > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > readdirp > micromatch > braces > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > liftoff > findup-sync > micromatch > braces > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > matchdep > findup-sync > micromatch > braces > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp-imagemin > imagemin > globby > fast-glob > micromatch > braces > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > matchdep > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > anymatch > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > readdirp > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > liftoff > findup-sync > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > matchdep > findup-sync > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp-imagemin > imagemin > globby > fast-glob > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > readdirp > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > liftoff > findup-sync > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > matchdep > findup-sync > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp-imagemin > imagemin > globby > fast-glob > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > glob-watcher > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > liftoff > findup-sync > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > gulp-cli > matchdep > findup-sync > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp-imagemin > imagemin > globby > fast-glob > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2021-04-28T00:18:35.120Z'
+  'npm:extend:20180424':
+    - gulp > gulp-cli > liftoff > extend:
+        patched: '2021-04-28T00:18:35.120Z'
+    - gulp > vinyl-fs > glob-stream > extend:
+        patched: '2021-04-28T00:18:35.120Z'
