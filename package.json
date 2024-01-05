@@ -12,7 +12,7 @@
   "author": "Nathan Randecker",
   "license": "ISC",
   "dependencies": {
-    "browser-sync": "^2.26.14",
+    "browser-sync": "^3.0.0",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^2.0.0",
@@ -20,7 +20,7 @@
     "gulp-plumber": "^1.1.0",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^2.0.0",
-    "snyk": "^1.570.0"
+    "snyk": "^1.996.0"
   },
   "resolutions": {
     "**/lodash.template": "^4.5.0"
